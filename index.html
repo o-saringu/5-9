@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF=8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="midasi">
+<h1>プログラム復習コンテンツ</h1>
+<a href="https://o-saringu.github.io/mokuji/">
+<div class="home"></div>
+</a>
+</div>
+
+<div class="oomidasi"><p>mouseButton変数</div>
+
+<div class="yoko">
+	<div class="yoko1">
+	<div class="komidasi1"><p>サンプルコードの結果</p></div>
+	<img src = "5-9.png">
+	</div>
+	<div class="yoko1">
+	<div class="komidasi2"><p>サンプルコード</div>
+<div class="code">
+	<p>　　	void setup(){
+	<p>　　	　size(120, 120);
+	<p>　　	　strokeWeight(30);　　	　
+	<p>　　	}
+	<p>　　	
+	<p>　　	void draw(){
+	<p>　　	　background(204);
+  	<p>　　	　stroke(102);
+  	<p>　　	　line(40, 0, 70, height);
+  	<p>　　	　if(mousePressed){
+	<p>　　	　　if(mouseButton==LEFT){
+	<p>　　	　　　stroke(255);
+	<p>　　	　　}else{
+	<p>　　	　　　stroke(0);
+	<p>　　	　　}
+  	<p>　　	　　line(0, 70, width, 50);
+	<p>　　	　}
+	<p>　　	}
+	</div>
+	</div>
+</div>
+
+<div class="komidasi3"><p>説明文</div>
+<div class="ep">
+	<p>　マウスに2個以上のボタンがあればどのボタンを押したかを判別することができる。
+	<p>　変数の値はLEFT、CENTER、RIGHTの３つであり、それぞれ左、中央、右となる。
+	<p>　押されたボタンを判別するには==演算子を使用する。
+
+</div>
+</body>
+
